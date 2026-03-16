@@ -45,7 +45,7 @@ Command: fromelf --bin projectname.axf --output filename.bin
 
 
 ADD FILES:
-Target1:
+Target1:.
 Source group1:
 Startuplpc17xx.s, delay.c , gpio.c , sysytemlpc17xx.c, main.c
 Header:
