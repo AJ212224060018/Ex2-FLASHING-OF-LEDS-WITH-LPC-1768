@@ -51,7 +51,7 @@ Startuplpc17xx.s, delay.c , gpio.c , sysytemlpc17xx.c, main.c
 ### Header:
 delay.h, gpio.h, stdulils.h
 ## PROGRAM:
-``
+```
       #include <lpc17xx.h>
 #include "pwm.h"
 #include "delay.h"
@@ -87,7 +87,7 @@ int main()
             DELAY_ms(500);
         }
     }                              
-``
+```
 ## OUTPUT
 ## RESULT:
 Thus a LED is interfaced with ARM LPC1768 microprocessor and its blinking was verified successfully.
