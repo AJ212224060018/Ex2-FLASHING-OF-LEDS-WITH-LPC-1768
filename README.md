@@ -1,6 +1,6 @@
 # Ex2-FLASHING-OF-LEDS-WITH-LPC-1768
 ## AIM: 
-To interface and toggle the led with ARM LPC 1768 microprocessor           
+ To interface and toggle the led with ARM LPC 1768 microprocessor           
            
 ## COMPONENTS REQUIRED:
  HARDWARE:
@@ -44,15 +44,15 @@ Command: fromelf --bin projectname.axf --output filename.bin
 ⮚	Check the project folder for the generated .Bin file.
 
 
-## ADD FILES:
-### Target1:
-### Source group1:
+ADD FILES:
+Target1:
+Source group1:
 Startuplpc17xx.s, delay.c , gpio.c , sysytemlpc17xx.c, main.c
-### Header:
+Header:
 delay.h, gpio.h, stdulils.h
 ## PROGRAM:
 ```
-      #include <lpc17xx.h>
+   #include <lpc17xx.h>
 #include "pwm.h"
 #include "delay.h"
 
@@ -87,7 +87,10 @@ int main()
             DELAY_ms(500);
         }
     }                              
+}
 ```
 ## OUTPUT
+![WhatsApp Image 2026-03-17 at 10 52 11 AM](https://github.com/user-attachments/assets/c43d312d-47f2-42f1-a3a7-682455521d26)
+
 ## RESULT:
 Thus a LED is interfaced with ARM LPC1768 microprocessor and its blinking was verified successfully.
